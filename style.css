@@ -6,6 +6,8 @@
 }
 body{
     background-color: #96bdc6;
+    /* Background Colour */
+
 }
 .container{
     background-color: #e0dddd;
@@ -78,4 +80,5 @@ form input[type="submit"]:hover{
     text-align: center;
     align-items: center;
     flex: 1;
+
 }

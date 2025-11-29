@@ -12,7 +12,7 @@ formEle.addEventListener("submit", (e)=>{
 
     getWeatherData(cityValue)
 })
-
+ //Type the City
 async function getWeatherData(cityValue){
     try{
         const response =  await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${apiKey}&units=metric`)
